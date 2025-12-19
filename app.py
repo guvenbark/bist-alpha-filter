@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from scanner import Scanner
 from data_manager import DataManager
+from backtester import Backtester
 
 # Page Config
 st.set_page_config(page_title="BIST Alpha Filter", layout="wide")
